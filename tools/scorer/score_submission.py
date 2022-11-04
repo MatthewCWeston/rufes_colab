@@ -420,7 +420,7 @@ class Logger:
         format of date and time in log output.
         """
         logging.basicConfig(filename=self.log_filename, 
-                            encoding='utf-8',
+                            #encoding='utf-8',
                             level=self.debug_level,
                             format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                             datefmt='%m/%d/%Y %I:%M:%S %p')
